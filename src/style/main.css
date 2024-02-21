@@ -1,0 +1,77 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-color: #4834d4;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #686de0;
+    color: rgb(255, 255, 255);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: rgb(255, 255, 255);
+}
+
+.carousel-item img{
+    max-width: 100%;
+}
+
+.navbar-toggler{
+    background-color: #686de0; /*Cor da bosta do menu hamburguer */
+}
+
+.section-title{
+    font-family: "Lobster Two", sans-serif;
+}
+
+#sobre,
+#eventos{
+    background-color: #dbdbfc;
+}
+
+.text-colored {
+    color: #4834d4;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button{
+    background-color: #4834d4;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #4834d4;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+form textarea{
+    resize: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        max-width: 100%;
+        height: 280px;
+    }
+}
+
+@media (max-width: 1023px){
+    .carousel-item img{
+        max-width: 100%;
+        height: 350px;
+    }
+}
